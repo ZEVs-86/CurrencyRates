@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+@property (weak, nonatomic) IBOutlet UIButton *goButton;
+@property (weak, nonatomic) IBOutlet UITableView *resultTableView;
+
+
+@property (copy, nonatomic) NSMutableArray *arResult;
+
 
 @end
 
